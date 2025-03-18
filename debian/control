@@ -1,0 +1,22 @@
+Source: zxdaad128
+Section: unknown
+Priority: optional
+Maintainer: Guillermo Gutierrez <xiterrex@gmail.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ python3,
+ sjasmplus,
+ python3-zxbasic
+Standards-Version: 4.7.1
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/zxdaad128
+#Vcs-Git: https://salsa.debian.org/debian/zxdaad128.git
+
+Package: zxdaad128
+Architecture: any
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
