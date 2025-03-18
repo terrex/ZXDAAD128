@@ -2,7 +2,7 @@
 CC = gcc
 CFLAGS  = -O3 -Wall -DNDEBUG -s
 RM = rm -f 
-EXTENSION = .exe
+EXTENSION =
 
 all: DCP
 
@@ -11,3 +11,6 @@ DCP: DCP.c optimize.c compress.c memory.c zx0.h symmetry.c cargs.c symmetry.h ca
 
 clean:
 	$(RM) *.obj DCP$(EXTENSION)
+
+install:
+	install -m755 DCP $(DESTDIR)/usr/bin/DCP

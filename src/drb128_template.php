@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 // (C) Uto, Jose Manuel Ferrer & Cronomantic 2019 - This code is released under the GPL v3 license
 // This is a fork of the backend of DAAD reborn compiler by Uto & Jose Manuel Ferrer for generate
